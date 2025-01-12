@@ -1,0 +1,153 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "minecraft:item/globe_banner_pattern"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1000
+			},
+			"model": "item/wooden_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1001
+			},
+			"model": "item/stone_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1002
+			},
+			"model": "item/gold_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1003
+			},
+			"model": "item/iron_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1004
+			},
+			"model": "item/diamond_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1005
+			},
+			"model": "item/windy_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1006
+			},
+			"model": "item/frost_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1007
+			},
+			"model": "item/ocean_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1008
+			},
+			"model": "item/dark_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1009
+			},
+			"model": "item/hyper_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1010
+			},
+			"model": "item/burning_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1011
+			},
+			"model": "item/poison_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1012
+			},
+			"model": "item/natural_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1014
+			},
+			"model": "item/earth_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1101
+			},
+			"model": "item/lev1_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1102
+			},
+			"model": "item/lev2_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1103
+			},
+			"model": "item/lev3_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1104
+			},
+			"model": "item/lev4_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1105
+			},
+			"model": "item/lev5_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1106
+			},
+			"model": "item/lev6_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1107
+			},
+			"model": "item/lev7_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1108
+			},
+			"model": "item/lev8_knuckle"
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-91.5, 0, 0],
+			"translation": [0, -1.75, 0],
+			"scale": [0.70313, 0.70313, 0.70313]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [91.5, 0, -180],
+			"translation": [0, -1.75, 0],
+			"scale": [0.70313, 0.70313, 0.70313]
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/trident"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [9, -86, 54],
+			"translation": [0, 6.75, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [130.44, -84.75, 92],
+			"translation": [0, 6.75, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-36, 95, 41],
+			"translation": [1.25, 4.75, -2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-36, 95, -52],
+			"translation": [1.25, 4.75, -2]
+		}
+	}
+}

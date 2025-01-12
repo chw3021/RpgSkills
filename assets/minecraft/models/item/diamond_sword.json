@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_sword"
+  },
+  
+	 "overrides": [
+
+	 {"predicate": {"custom_model_data":10005}, "model": "item/windy_trident"},
+	 {"predicate": {"custom_model_data":10006}, "model": "item/frost_trident"},
+	 {"predicate": {"custom_model_data":10007}, "model": "item/ocean_trident"},
+	 {"predicate": {"custom_model_data":10008}, "model": "item/dark_trident"},
+	 {"predicate": {"custom_model_data":10009}, "model": "item/hyper_trident"},
+	 {"predicate": {"custom_model_data":10010}, "model": "item/burning_trident"},
+	 {"predicate": {"custom_model_data":10011}, "model": "item/poison_trident"},
+	 {"predicate": {"custom_model_data":10012}, "model": "item/natural_trident"},
+	 {"predicate": {"custom_model_data":10014}, "model": "item/earth_trident"},
+	 {"predicate": {"custom_model_data":10101}, "model": "item/lev1_trident"},
+	 {"predicate": {"custom_model_data":10102}, "model": "item/lev2_trident"},
+	 {"predicate": {"custom_model_data":10103}, "model": "item/lev3_trident"},
+	 {"predicate": {"custom_model_data":10104}, "model": "item/lev4_trident"},
+	 {"predicate": {"custom_model_data":10105}, "model": "item/lev5_trident"},
+	 {"predicate": {"custom_model_data":10106}, "model": "item/lev6_trident"},
+	 {"predicate": {"custom_model_data":10107}, "model": "item/lev7_trident"},
+	 {"predicate": {"custom_model_data":10108}, "model": "item/lev8_trident"}
+
+	 ]
+}

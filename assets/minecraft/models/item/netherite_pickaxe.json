@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_pickaxe"
+  },
+	 
+	 "overrides": [
+
+	 {"predicate": {"custom_model_data":7005}, "model": "item/windy_pickaxe"},
+	 {"predicate": {"custom_model_data":7006}, "model": "item/frost_pickaxe"},
+	 {"predicate": {"custom_model_data":7007}, "model": "item/ocean_pickaxe"},
+	 {"predicate": {"custom_model_data":7008}, "model": "item/dark_pickaxe"},
+	 {"predicate": {"custom_model_data":7009}, "model": "item/hyper_pickaxe"},
+	 {"predicate": {"custom_model_data":7010}, "model": "item/burning_pickaxe"},
+	 {"predicate": {"custom_model_data":7011}, "model": "item/poison_pickaxe"},
+	 {"predicate": {"custom_model_data":7012}, "model": "item/natural_pickaxe"},
+	 {"predicate": {"custom_model_data":7014}, "model": "item/earth_pickaxe"},
+	 {"predicate": {"custom_model_data":7101}, "model": "item/lev1_pickaxe"},
+	 {"predicate": {"custom_model_data":7102}, "model": "item/lev2_pickaxe"},
+	 {"predicate": {"custom_model_data":7103}, "model": "item/lev3_pickaxe"},
+	 {"predicate": {"custom_model_data":7104}, "model": "item/lev4_pickaxe"},
+	 {"predicate": {"custom_model_data":7105}, "model": "item/lev5_pickaxe"},
+	 {"predicate": {"custom_model_data":7106}, "model": "item/lev6_pickaxe"},
+	 {"predicate": {"custom_model_data":7107}, "model": "item/lev7_pickaxe"},
+	 {"predicate": {"custom_model_data":7108}, "model": "item/lev8_pickaxe"}
+
+
+	 ]
+}

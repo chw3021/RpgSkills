@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+	 
+	 "overrides": [
+
+	 {"predicate": {"custom_model_data":3005}, "model": "item/windy_sword"},
+	 {"predicate": {"custom_model_data":3006}, "model": "item/frost_sword"},
+	 {"predicate": {"custom_model_data":3007}, "model": "item/ocean_sword"},
+	 {"predicate": {"custom_model_data":3008}, "model": "item/dark_sword"},
+	 {"predicate": {"custom_model_data":3009}, "model": "item/hyper_sword"},
+	 {"predicate": {"custom_model_data":3010}, "model": "item/burning_sword"},
+	 {"predicate": {"custom_model_data":3011}, "model": "item/poison_sword"},
+	 {"predicate": {"custom_model_data":3012}, "model": "item/natural_sword"},
+	 {"predicate": {"custom_model_data":3014}, "model": "item/earth_sword"},
+	 {"predicate": {"custom_model_data":3101}, "model": "item/lev1_sword"},
+	 {"predicate": {"custom_model_data":3102}, "model": "item/lev2_sword"},
+	 {"predicate": {"custom_model_data":3103}, "model": "item/lev3_sword"},
+	 {"predicate": {"custom_model_data":3104}, "model": "item/lev4_sword"},
+	 {"predicate": {"custom_model_data":3105}, "model": "item/lev5_sword"},
+	 {"predicate": {"custom_model_data":3106}, "model": "item/lev6_sword"},
+	 {"predicate": {"custom_model_data":3107}, "model": "item/lev7_sword"},
+	 {"predicate": {"custom_model_data":3108}, "model": "item/lev8_sword"}
+
+	 ]
+}

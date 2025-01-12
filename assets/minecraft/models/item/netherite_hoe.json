@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_hoe"
+  },
+	 
+	 "overrides": [
+
+	 {"predicate": {"custom_model_data":8005}, "model": "item/windy_hoe"},
+	 {"predicate": {"custom_model_data":8006}, "model": "item/frost_hoe"},
+	 {"predicate": {"custom_model_data":8007}, "model": "item/ocean_hoe"},
+	 {"predicate": {"custom_model_data":8008}, "model": "item/dark_hoe"},
+	 {"predicate": {"custom_model_data":8009}, "model": "item/hyper_hoe"},
+	 {"predicate": {"custom_model_data":8010}, "model": "item/burning_hoe"},
+	 {"predicate": {"custom_model_data":8011}, "model": "item/poison_hoe"},
+	 {"predicate": {"custom_model_data":8012}, "model": "item/natural_hoe"},
+	 {"predicate": {"custom_model_data":8014}, "model": "item/earth_hoe"},
+	 {"predicate": {"custom_model_data":8101}, "model": "item/lev1_hoe"},
+	 {"predicate": {"custom_model_data":8102}, "model": "item/lev2_hoe"},
+	 {"predicate": {"custom_model_data":8103}, "model": "item/lev3_hoe"},
+	 {"predicate": {"custom_model_data":8104}, "model": "item/lev4_hoe"},
+	 {"predicate": {"custom_model_data":8105}, "model": "item/lev5_hoe"},
+	 {"predicate": {"custom_model_data":8106}, "model": "item/lev6_hoe"},
+	 {"predicate": {"custom_model_data":8107}, "model": "item/lev7_hoe"},
+	 {"predicate": {"custom_model_data":8108}, "model": "item/lev8_hoe"}
+
+	 ]
+}

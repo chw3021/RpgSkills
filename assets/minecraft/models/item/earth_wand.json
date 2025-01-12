@@ -1,0 +1,6 @@
+{
+    "parent": "item/blaze_rod",
+    "textures": {
+        "layer0": "item/earth_wand"
+    }
+}

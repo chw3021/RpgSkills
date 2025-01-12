@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_shovel"
+  },
+	 
+	 "overrides": [
+
+	 {"predicate": {"custom_model_data":6005}, "model": "item/windy_shovel"},
+	 {"predicate": {"custom_model_data":6006}, "model": "item/frost_shovel"},
+	 {"predicate": {"custom_model_data":6007}, "model": "item/ocean_shovel"},
+	 {"predicate": {"custom_model_data":6008}, "model": "item/dark_shovel"},
+	 {"predicate": {"custom_model_data":6009}, "model": "item/hyper_shovel"},
+	 {"predicate": {"custom_model_data":6010}, "model": "item/burning_shovel"},
+	 {"predicate": {"custom_model_data":6011}, "model": "item/poison_shovel"},
+	 {"predicate": {"custom_model_data":6012}, "model": "item/natural_shovel"},
+	 {"predicate": {"custom_model_data":6014}, "model": "item/earth_shovel"},
+	 {"predicate": {"custom_model_data":6101}, "model": "item/lev1_shovel"},
+	 {"predicate": {"custom_model_data":6102}, "model": "item/lev2_shovel"},
+	 {"predicate": {"custom_model_data":6103}, "model": "item/lev3_shovel"},
+	 {"predicate": {"custom_model_data":6104}, "model": "item/lev4_shovel"},
+	 {"predicate": {"custom_model_data":6105}, "model": "item/lev5_shovel"},
+	 {"predicate": {"custom_model_data":6106}, "model": "item/lev6_shovel"},
+	 {"predicate": {"custom_model_data":6107}, "model": "item/lev7_shovel"},
+	 {"predicate": {"custom_model_data":6108}, "model": "item/lev8_shovel"}
+
+	 ]
+}

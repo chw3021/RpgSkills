@@ -1,0 +1,6 @@
+{
+    "parent": "item/fishing_rod",
+    "textures": {
+        "layer0": "item/earth_fishing_rod_cast"
+    }
+}

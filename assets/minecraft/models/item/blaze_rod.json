@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/blaze_rod"
+  },
+	 
+	 "overrides": [
+
+	 {"predicate": {"custom_model_data":9000}, "model": "item/wooden_wand"},
+	 {"predicate": {"custom_model_data":9001}, "model": "item/stone_wand"},
+	 {"predicate": {"custom_model_data":9002}, "model": "item/gold_wand"},
+	 {"predicate": {"custom_model_data":9003}, "model": "item/iron_wand"},
+	 {"predicate": {"custom_model_data":9004}, "model": "item/diamond_wand"},
+	 {"predicate": {"custom_model_data":9005}, "model": "item/windy_wand"},
+	 {"predicate": {"custom_model_data":9006}, "model": "item/frost_wand"},
+	 {"predicate": {"custom_model_data":9007}, "model": "item/ocean_wand"},
+	 {"predicate": {"custom_model_data":9008}, "model": "item/dark_wand"},
+	 {"predicate": {"custom_model_data":9009}, "model": "item/hyper_wand"},
+	 {"predicate": {"custom_model_data":9010}, "model": "item/burning_wand"},
+	 {"predicate": {"custom_model_data":9011}, "model": "item/poison_wand"},
+	 {"predicate": {"custom_model_data":9012}, "model": "item/natural_wand"},
+	 {"predicate": {"custom_model_data":9014}, "model": "item/earth_wand"},
+	 {"predicate": {"custom_model_data":9060}, "model": "item/netherite_wand"},
+	 {"predicate": {"custom_model_data":9101}, "model": "item/lev1_wand"},
+	 {"predicate": {"custom_model_data":9102}, "model": "item/lev2_wand"},
+	 {"predicate": {"custom_model_data":9103}, "model": "item/lev3_wand"},
+	 {"predicate": {"custom_model_data":9104}, "model": "item/lev4_wand"},
+	 {"predicate": {"custom_model_data":9105}, "model": "item/lev5_wand"},
+	 {"predicate": {"custom_model_data":9106}, "model": "item/lev6_wand"},
+	 {"predicate": {"custom_model_data":9107}, "model": "item/lev7_wand"},
+	 {"predicate": {"custom_model_data":9108}, "model": "item/lev8_wand"}
+
+	 ]
+}

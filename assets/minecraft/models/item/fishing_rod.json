@@ -1,0 +1,369 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cast": 1
+            },
+            "model": "item/fishing_rod_cast"
+        },
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12001
+            },
+            "model": "item/stone_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12001,
+                "cast": 1
+            },
+            "model": "item/stone_fishing_rod_cast"
+        },
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12002
+            },
+            "model": "item/gold_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12002,
+                "cast": 1
+            },
+            "model": "item/gold_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12003
+            },
+            "model": "item/iron_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12003,
+                "cast": 1
+            },
+            "model": "item/iron_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12004
+            },
+            "model": "item/diamond_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12004,
+                "cast": 1
+            },
+            "model": "item/diamond_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12005
+            },
+            "model": "item/windy_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12005,
+                "cast": 1
+            },
+            "model": "item/windy_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12006
+            },
+            "model": "item/frost_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12006,
+                "cast": 1
+            },
+            "model": "item/frost_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12007
+            },
+            "model": "item/ocean_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12007,
+                "cast": 1
+            },
+            "model": "item/ocean_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12008
+            },
+            "model": "item/dark_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12008,
+                "cast": 1
+            },
+            "model": "item/dark_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12009
+            },
+            "model": "item/hyper_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12009,
+                "cast": 1
+            },
+            "model": "item/hyper_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12010
+            },
+            "model": "item/burning_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12010,
+                "cast": 1
+            },
+            "model": "item/burning_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12011
+            },
+            "model": "item/poison_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12011,
+                "cast": 1
+            },
+            "model": "item/poison_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12012
+            },
+            "model": "item/natural_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12012,
+                "cast": 1
+            },
+            "model": "item/natural_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12014
+            },
+            "model": "item/earth_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12014,
+                "cast": 1
+            },
+            "model": "item/earth_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12101
+            },
+            "model": "item/lev1_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12101,
+                "cast": 1
+            },
+            "model": "item/lev1_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12102
+            },
+            "model": "item/lev2_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12102,
+                "cast": 1
+            },
+            "model": "item/lev2_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12103
+            },
+            "model": "item/lev3_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12103,
+                "cast": 1
+            },
+            "model": "item/lev3_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12104
+            },
+            "model": "item/lev4_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12104,
+                "cast": 1
+            },
+            "model": "item/lev4_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12105
+            },
+            "model": "item/lev5_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12105,
+                "cast": 1
+            },
+            "model": "item/lev5_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12106
+            },
+            "model": "item/lev6_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12106,
+                "cast": 1
+            },
+            "model": "item/lev6_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12107
+            },
+            "model": "item/lev7_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12107,
+                "cast": 1
+            },
+            "model": "item/lev7_fishing_rod_cast"
+        },
+		
+		
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":12108
+            },
+            "model": "item/lev8_fishing_rod"
+        },
+        {
+            "predicate": {
+				"custom_model_data":12108,
+                "cast": 1
+            },
+            "model": "item/lev8_fishing_rod_cast"
+        }
+    ]
+}

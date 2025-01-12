@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_axe"
+  },
+	 
+	 "overrides": [
+
+	 {"predicate": {"custom_model_data":4006}, "model": "item/frost_axe"},
+	 {"predicate": {"custom_model_data":4007}, "model": "item/ocean_axe"},
+	 {"predicate": {"custom_model_data":4008}, "model": "item/dark_axe"},
+	 {"predicate": {"custom_model_data":4009}, "model": "item/hyper_axe"},
+	 {"predicate": {"custom_model_data":4010}, "model": "item/burning_axe"},
+	 {"predicate": {"custom_model_data":4011}, "model": "item/poison_axe"},
+	 {"predicate": {"custom_model_data":4012}, "model": "item/natural_axe"},
+	 {"predicate": {"custom_model_data":4014}, "model": "item/earth_axe"},
+	 {"predicate": {"custom_model_data":4101}, "model": "item/lev1_axe"},
+	 {"predicate": {"custom_model_data":4102}, "model": "item/lev2_axe"},
+	 {"predicate": {"custom_model_data":4103}, "model": "item/lev3_axe"},
+	 {"predicate": {"custom_model_data":4104}, "model": "item/lev4_axe"},
+	 {"predicate": {"custom_model_data":4105}, "model": "item/lev5_axe"},
+	 {"predicate": {"custom_model_data":4106}, "model": "item/lev6_axe"},
+	 {"predicate": {"custom_model_data":4107}, "model": "item/lev7_axe"},
+	 {"predicate": {"custom_model_data":4108}, "model": "item/lev8_axe"}
+
+	 ]
+}
