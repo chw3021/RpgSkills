@@ -1,6 +1,0 @@
-{
-    "parent": "item/globe_banner_pattern",
-    "textures": {
-        "layer0": "item/lev4_knuckle"
-    }
-}

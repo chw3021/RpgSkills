@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/pickaxe/growing/lev8/lev8_pickaxe"
+    }
+}

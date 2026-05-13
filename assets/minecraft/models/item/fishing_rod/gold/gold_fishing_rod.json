@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/fishing_rod/gold/gold_fishing_rod"
+    }
+}

@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/shears"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 11000}, "model": "item/dagger/wooden/wooden_dagger"},
+		{"predicate": {"custom_model_data": 11001}, "model": "item/dagger/stone/stone_dagger"},
+		{"predicate": {"custom_model_data": 11002}, "model": "item/dagger/gold/gold_dagger"},
+		{"predicate": {"custom_model_data": 11003}, "model": "item/dagger/iron/iron_dagger"},
+		{"predicate": {"custom_model_data": 11004}, "model": "item/dagger/diamond/diamond_dagger"},
+		{"predicate": {"custom_model_data": 11015}, "model": "item/dagger/copper/copper_dagger"},
+		{"predicate": {"custom_model_data": 11060}, "model": "item/dagger/netherite/netherite_dagger"},
+		{"predicate": {"custom_model_data": 11005}, "model": "item/dagger/windy/windy_dagger"},
+		{"predicate": {"custom_model_data": 11006}, "model": "item/dagger/frost/frost_dagger"},
+		{"predicate": {"custom_model_data": 11007}, "model": "item/dagger/ocean/ocean_dagger"},
+		{"predicate": {"custom_model_data": 11008}, "model": "item/dagger/dark/dark_dagger"},
+		{"predicate": {"custom_model_data": 11009}, "model": "item/dagger/hyper/hyper_dagger"},
+		{"predicate": {"custom_model_data": 11010}, "model": "item/dagger/burning/burning_dagger"},
+		{"predicate": {"custom_model_data": 11011}, "model": "item/dagger/poison/poison_dagger"},
+		{"predicate": {"custom_model_data": 11012}, "model": "item/dagger/natural/natural_dagger"},
+		{"predicate": {"custom_model_data": 11014}, "model": "item/dagger/earth/earth_dagger"},
+		{"predicate": {"custom_model_data": 11101}, "model": "item/dagger/growing/lev1/lev1_dagger"},
+		{"predicate": {"custom_model_data": 11102}, "model": "item/dagger/growing/lev2/lev2_dagger"},
+		{"predicate": {"custom_model_data": 11103}, "model": "item/dagger/growing/lev3/lev3_dagger"},
+		{"predicate": {"custom_model_data": 11104}, "model": "item/dagger/growing/lev4/lev4_dagger"},
+		{"predicate": {"custom_model_data": 11105}, "model": "item/dagger/growing/lev5/lev5_dagger"},
+		{"predicate": {"custom_model_data": 11106}, "model": "item/dagger/growing/lev6/lev6_dagger"},
+		{"predicate": {"custom_model_data": 11107}, "model": "item/dagger/growing/lev7/lev7_dagger"},
+		{"predicate": {"custom_model_data": 11108}, "model": "item/dagger/growing/lev8/lev8_dagger"}
+	]
+}

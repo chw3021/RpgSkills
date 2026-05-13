@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/wand/growing/lev8/lev8_wand"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/crossbow/natural/natural_crossbow"
+    }
+}

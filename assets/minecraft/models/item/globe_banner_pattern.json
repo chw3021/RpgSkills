@@ -9,133 +9,145 @@
 			"predicate": {
 				"custom_model_data": 1000
 			},
-			"model": "item/wooden_knuckle"
+			"model": "item/knuckle/wooden/wooden_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1001
 			},
-			"model": "item/stone_knuckle"
+			"model": "item/knuckle/stone/stone_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1002
 			},
-			"model": "item/gold_knuckle"
+			"model": "item/knuckle/gold/gold_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1003
 			},
-			"model": "item/iron_knuckle"
+			"model": "item/knuckle/iron/iron_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1004
 			},
-			"model": "item/diamond_knuckle"
+			"model": "item/knuckle/diamond/diamond_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1015
+			},
+			"model": "item/knuckle/copper/copper_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1005
 			},
-			"model": "item/windy_knuckle"
+			"model": "item/knuckle/windy/windy_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1006
 			},
-			"model": "item/frost_knuckle"
+			"model": "item/knuckle/frost/frost_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1007
 			},
-			"model": "item/ocean_knuckle"
+			"model": "item/knuckle/ocean/ocean_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1008
 			},
-			"model": "item/dark_knuckle"
+			"model": "item/knuckle/dark/dark_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1009
 			},
-			"model": "item/hyper_knuckle"
+			"model": "item/knuckle/hyper/hyper_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1010
 			},
-			"model": "item/burning_knuckle"
+			"model": "item/knuckle/burning/burning_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1011
 			},
-			"model": "item/poison_knuckle"
+			"model": "item/knuckle/poison/poison_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1012
 			},
-			"model": "item/natural_knuckle"
+			"model": "item/knuckle/natural/natural_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1014
 			},
-			"model": "item/earth_knuckle"
+			"model": "item/knuckle/earth/earth_knuckle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1060
+			},
+			"model": "item/knuckle/netherite/netherite_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1101
 			},
-			"model": "item/lev1_knuckle"
+			"model": "item/knuckle/growing/lev1/lev1_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1102
 			},
-			"model": "item/lev2_knuckle"
+			"model": "item/knuckle/growing/lev2/lev2_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1103
 			},
-			"model": "item/lev3_knuckle"
+			"model": "item/knuckle/growing/lev3/lev3_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1104
 			},
-			"model": "item/lev4_knuckle"
+			"model": "item/knuckle/growing/lev4/lev4_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1105
 			},
-			"model": "item/lev5_knuckle"
+			"model": "item/knuckle/growing/lev5/lev5_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1106
 			},
-			"model": "item/lev6_knuckle"
+			"model": "item/knuckle/growing/lev6/lev6_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1107
 			},
-			"model": "item/lev7_knuckle"
+			"model": "item/knuckle/growing/lev7/lev7_knuckle"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1108
 			},
-			"model": "item/lev8_knuckle"
+			"model": "item/knuckle/growing/lev8/lev8_knuckle"
 		}
 	],
 	"display": {

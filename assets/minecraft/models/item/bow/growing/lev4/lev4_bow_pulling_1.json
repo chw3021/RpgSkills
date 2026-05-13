@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "item/bow/growing/lev4/lev4_bow_pulling_1"
+    }
+}

@@ -65,14 +65,14 @@
             "predicate": {
 				"custom_model_data":5001
             },
-            "model": "item/stone_crossbow"
+            "model": "item/crossbow/stone/stone_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5001,
                 "pulling": 1
             },
-            "model": "item/stone_crossbow_pulling_0"
+            "model": "item/crossbow/stone/stone_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -80,7 +80,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/stone_crossbow_pulling_1"
+            "model": "item/crossbow/stone/stone_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -88,14 +88,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/stone_crossbow_pulling_2"
+            "model": "item/crossbow/stone/stone_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5001,
                 "charged": 1
             },
-            "model": "item/stone_crossbow_arrow"
+            "model": "item/crossbow/stone/stone_crossbow_arrow"
         },
         {
             "predicate": {
@@ -103,7 +103,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/stone_crossbow_firework"
+            "model": "item/crossbow/stone/stone_crossbow_firework"
         },
 		
 		
@@ -111,14 +111,14 @@
             "predicate": {
 				"custom_model_data":5002
             },
-            "model": "item/gold_crossbow"
+            "model": "item/crossbow/gold/gold_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5002,
                 "pulling": 1
             },
-            "model": "item/gold_crossbow_pulling_0"
+            "model": "item/crossbow/gold/gold_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -126,7 +126,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/gold_crossbow_pulling_1"
+            "model": "item/crossbow/gold/gold_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -134,14 +134,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/gold_crossbow_pulling_2"
+            "model": "item/crossbow/gold/gold_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5002,
                 "charged": 1
             },
-            "model": "item/gold_crossbow_arrow"
+            "model": "item/crossbow/gold/gold_crossbow_arrow"
         },
         {
             "predicate": {
@@ -149,7 +149,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/gold_crossbow_firework"
+            "model": "item/crossbow/gold/gold_crossbow_firework"
         },
 		
 		
@@ -157,14 +157,14 @@
             "predicate": {
 				"custom_model_data":5003
             },
-            "model": "item/iron_crossbow"
+            "model": "item/crossbow/iron/iron_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5003,
                 "pulling": 1
             },
-            "model": "item/iron_crossbow_pulling_0"
+            "model": "item/crossbow/iron/iron_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -172,7 +172,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/iron_crossbow_pulling_1"
+            "model": "item/crossbow/iron/iron_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -180,14 +180,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/iron_crossbow_pulling_2"
+            "model": "item/crossbow/iron/iron_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5003,
                 "charged": 1
             },
-            "model": "item/iron_crossbow_arrow"
+            "model": "item/crossbow/iron/iron_crossbow_arrow"
         },
         {
             "predicate": {
@@ -195,7 +195,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/iron_crossbow_firework"
+            "model": "item/crossbow/iron/iron_crossbow_firework"
         },
 		
 		
@@ -204,14 +204,14 @@
             "predicate": {
 				"custom_model_data":5004
             },
-            "model": "item/diamond_crossbow"
+            "model": "item/crossbow/diamond/diamond_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5004,
                 "pulling": 1
             },
-            "model": "item/diamond_crossbow_pulling_0"
+            "model": "item/crossbow/diamond/diamond_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -219,7 +219,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/diamond_crossbow_pulling_1"
+            "model": "item/crossbow/diamond/diamond_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -227,14 +227,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/diamond_crossbow_pulling_2"
+            "model": "item/crossbow/diamond/diamond_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5004,
                 "charged": 1
             },
-            "model": "item/diamond_crossbow_arrow"
+            "model": "item/crossbow/diamond/diamond_crossbow_arrow"
         },
         {
             "predicate": {
@@ -242,7 +242,53 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/diamond_crossbow_firework"
+            "model": "item/crossbow/diamond/diamond_crossbow_firework"
+        },
+		
+		
+        {
+            "predicate": {
+				"custom_model_data":5015
+            },
+            "model": "item/crossbow/copper/copper_crossbow"
+        },
+        {
+            "predicate": {
+				"custom_model_data":5015,
+                "pulling": 1
+            },
+            "model": "item/crossbow/copper/copper_crossbow_pulling_0"
+        },
+        {
+            "predicate": {
+				"custom_model_data":5015,
+                "pulling": 1,
+                "pull": 0.58
+            },
+            "model": "item/crossbow/copper/copper_crossbow_pulling_1"
+        },
+        {
+            "predicate": {
+				"custom_model_data":5015,
+                "pulling": 1,
+                "pull": 1.0
+            },
+            "model": "item/crossbow/copper/copper_crossbow_pulling_2"
+        },
+        {
+            "predicate": {
+				"custom_model_data":5015,
+                "charged": 1
+            },
+            "model": "item/crossbow/copper/copper_crossbow_arrow"
+        },
+        {
+            "predicate": {
+				"custom_model_data":5015,
+                "charged": 1,
+                "firework": 1
+            },
+            "model": "item/crossbow/copper/copper_crossbow_firework"
         },
 		
 		
@@ -251,14 +297,14 @@
             "predicate": {
 				"custom_model_data":5005
             },
-            "model": "item/windy_crossbow"
+            "model": "item/crossbow/windy/windy_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5005,
                 "pulling": 1
             },
-            "model": "item/windy_crossbow_pulling_0"
+            "model": "item/crossbow/windy/windy_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -266,7 +312,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/windy_crossbow_pulling_1"
+            "model": "item/crossbow/windy/windy_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -274,14 +320,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/windy_crossbow_pulling_2"
+            "model": "item/crossbow/windy/windy_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5005,
                 "charged": 1
             },
-            "model": "item/windy_crossbow_arrow"
+            "model": "item/crossbow/windy/windy_crossbow_arrow"
         },
         {
             "predicate": {
@@ -289,7 +335,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/windy_crossbow_firework"
+            "model": "item/crossbow/windy/windy_crossbow_firework"
         },
 		
 		
@@ -298,14 +344,14 @@
             "predicate": {
 				"custom_model_data":5006
             },
-            "model": "item/frost_crossbow"
+            "model": "item/crossbow/frost/frost_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5006,
                 "pulling": 1
             },
-            "model": "item/frost_crossbow_pulling_0"
+            "model": "item/crossbow/frost/frost_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -313,7 +359,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/frost_crossbow_pulling_1"
+            "model": "item/crossbow/frost/frost_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -321,14 +367,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/frost_crossbow_pulling_2"
+            "model": "item/crossbow/frost/frost_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5006,
                 "charged": 1
             },
-            "model": "item/frost_crossbow_arrow"
+            "model": "item/crossbow/frost/frost_crossbow_arrow"
         },
         {
             "predicate": {
@@ -336,7 +382,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/frost_crossbow_firework"
+            "model": "item/crossbow/frost/frost_crossbow_firework"
         },
 		
 		
@@ -344,14 +390,14 @@
             "predicate": {
 				"custom_model_data":5007
             },
-            "model": "item/ocean_crossbow"
+            "model": "item/crossbow/ocean/ocean_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5007,
                 "pulling": 1
             },
-            "model": "item/ocean_crossbow_pulling_0"
+            "model": "item/crossbow/ocean/ocean_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -359,7 +405,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/ocean_crossbow_pulling_1"
+            "model": "item/crossbow/ocean/ocean_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -367,14 +413,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/ocean_crossbow_pulling_2"
+            "model": "item/crossbow/ocean/ocean_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5007,
                 "charged": 1
             },
-            "model": "item/ocean_crossbow_arrow"
+            "model": "item/crossbow/ocean/ocean_crossbow_arrow"
         },
         {
             "predicate": {
@@ -382,7 +428,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/ocean_crossbow_firework"
+            "model": "item/crossbow/ocean/ocean_crossbow_firework"
         },
 		
 		
@@ -390,14 +436,14 @@
             "predicate": {
 				"custom_model_data":5008
             },
-            "model": "item/dark_crossbow"
+            "model": "item/crossbow/dark/dark_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5008,
                 "pulling": 1
             },
-            "model": "item/dark_crossbow_pulling_0"
+            "model": "item/crossbow/dark/dark_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -405,7 +451,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/dark_crossbow_pulling_1"
+            "model": "item/crossbow/dark/dark_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -413,14 +459,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/dark_crossbow_pulling_2"
+            "model": "item/crossbow/dark/dark_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5008,
                 "charged": 1
             },
-            "model": "item/dark_crossbow_arrow"
+            "model": "item/crossbow/dark/dark_crossbow_arrow"
         },
         {
             "predicate": {
@@ -428,7 +474,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/dark_crossbow_firework"
+            "model": "item/crossbow/dark/dark_crossbow_firework"
         },
 		
 		
@@ -436,14 +482,14 @@
             "predicate": {
 				"custom_model_data":5009
             },
-            "model": "item/hyper_crossbow"
+            "model": "item/crossbow/hyper/hyper_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5009,
                 "pulling": 1
             },
-            "model": "item/hyper_crossbow_pulling_0"
+            "model": "item/crossbow/hyper/hyper_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -451,7 +497,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/hyper_crossbow_pulling_1"
+            "model": "item/crossbow/hyper/hyper_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -459,14 +505,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/hyper_crossbow_pulling_2"
+            "model": "item/crossbow/hyper/hyper_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5009,
                 "charged": 1
             },
-            "model": "item/hyper_crossbow_arrow"
+            "model": "item/crossbow/hyper/hyper_crossbow_arrow"
         },
         {
             "predicate": {
@@ -474,7 +520,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/hyper_crossbow_firework"
+            "model": "item/crossbow/hyper/hyper_crossbow_firework"
         },
 		
 		
@@ -482,14 +528,14 @@
             "predicate": {
 				"custom_model_data":5010
             },
-            "model": "item/burning_crossbow"
+            "model": "item/crossbow/burning/burning_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5010,
                 "pulling": 1
             },
-            "model": "item/burning_crossbow_pulling_0"
+            "model": "item/crossbow/burning/burning_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -497,7 +543,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/burning_crossbow_pulling_1"
+            "model": "item/crossbow/burning/burning_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -505,14 +551,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/burning_crossbow_pulling_2"
+            "model": "item/crossbow/burning/burning_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5010,
                 "charged": 1
             },
-            "model": "item/burning_crossbow_arrow"
+            "model": "item/crossbow/burning/burning_crossbow_arrow"
         },
         {
             "predicate": {
@@ -520,7 +566,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/burning_crossbow_firework"
+            "model": "item/crossbow/burning/burning_crossbow_firework"
         },
 		
 		
@@ -529,14 +575,14 @@
             "predicate": {
 				"custom_model_data":5011
             },
-            "model": "item/poison_crossbow"
+            "model": "item/crossbow/poison/poison_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5011,
                 "pulling": 1
             },
-            "model": "item/poison_crossbow_pulling_0"
+            "model": "item/crossbow/poison/poison_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -544,7 +590,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/poison_crossbow_pulling_1"
+            "model": "item/crossbow/poison/poison_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -552,14 +598,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/poison_crossbow_pulling_2"
+            "model": "item/crossbow/poison/poison_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5011,
                 "charged": 1
             },
-            "model": "item/poison_crossbow_arrow"
+            "model": "item/crossbow/poison/poison_crossbow_arrow"
         },
         {
             "predicate": {
@@ -567,7 +613,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/poison_crossbow_firework"
+            "model": "item/crossbow/poison/poison_crossbow_firework"
         },
 		
 		
@@ -575,14 +621,14 @@
             "predicate": {
 				"custom_model_data":5012
             },
-            "model": "item/natural_crossbow"
+            "model": "item/crossbow/natural/natural_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5012,
                 "pulling": 1
             },
-            "model": "item/natural_crossbow_pulling_0"
+            "model": "item/crossbow/natural/natural_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -590,7 +636,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/natural_crossbow_pulling_1"
+            "model": "item/crossbow/natural/natural_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -598,14 +644,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/natural_crossbow_pulling_2"
+            "model": "item/crossbow/natural/natural_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5012,
                 "charged": 1
             },
-            "model": "item/natural_crossbow_arrow"
+            "model": "item/crossbow/natural/natural_crossbow_arrow"
         },
         {
             "predicate": {
@@ -613,7 +659,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/natural_crossbow_firework"
+            "model": "item/crossbow/natural/natural_crossbow_firework"
         },
 		
 		
@@ -621,14 +667,14 @@
             "predicate": {
 				"custom_model_data":5014
             },
-            "model": "item/earth_crossbow"
+            "model": "item/crossbow/earth/earth_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5014,
                 "pulling": 1
             },
-            "model": "item/earth_crossbow_pulling_0"
+            "model": "item/crossbow/earth/earth_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -636,7 +682,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/earth_crossbow_pulling_1"
+            "model": "item/crossbow/earth/earth_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -644,14 +690,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/earth_crossbow_pulling_2"
+            "model": "item/crossbow/earth/earth_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5014,
                 "charged": 1
             },
-            "model": "item/earth_crossbow_arrow"
+            "model": "item/crossbow/earth/earth_crossbow_arrow"
         },
         {
             "predicate": {
@@ -659,7 +705,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/earth_crossbow_firework"
+            "model": "item/crossbow/earth/earth_crossbow_firework"
         },
 		
 		
@@ -668,14 +714,14 @@
             "predicate": {
 				"custom_model_data":5060
             },
-            "model": "item/netherite_crossbow"
+            "model": "item/crossbow/netherite/netherite_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5060,
                 "pulling": 1
             },
-            "model": "item/netherite_crossbow_pulling_0"
+            "model": "item/crossbow/netherite/netherite_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -683,7 +729,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/netherite_crossbow_pulling_1"
+            "model": "item/crossbow/netherite/netherite_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -691,14 +737,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/netherite_crossbow_pulling_2"
+            "model": "item/crossbow/netherite/netherite_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5060,
                 "charged": 1
             },
-            "model": "item/netherite_crossbow_arrow"
+            "model": "item/crossbow/netherite/netherite_crossbow_arrow"
         },
         {
             "predicate": {
@@ -706,7 +752,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/netherite_crossbow_firework"
+            "model": "item/crossbow/netherite/netherite_crossbow_firework"
         },
 		
 		
@@ -715,14 +761,14 @@
             "predicate": {
 				"custom_model_data":5101
             },
-            "model": "item/lev1_crossbow"
+            "model": "item/crossbow/growing/lev1/lev1_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5101,
                 "pulling": 1
             },
-            "model": "item/lev1_crossbow_pulling_0"
+            "model": "item/crossbow/growing/lev1/lev1_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -730,7 +776,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/lev1_crossbow_pulling_1"
+            "model": "item/crossbow/growing/lev1/lev1_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -738,14 +784,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/lev1_crossbow_pulling_2"
+            "model": "item/crossbow/growing/lev1/lev1_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5101,
                 "charged": 1
             },
-            "model": "item/lev1_crossbow_arrow"
+            "model": "item/crossbow/growing/lev1/lev1_crossbow_arrow"
         },
         {
             "predicate": {
@@ -753,7 +799,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/lev1_crossbow_firework"
+            "model": "item/crossbow/growing/lev1/lev1_crossbow_firework"
         },
 		
 		
@@ -762,14 +808,14 @@
             "predicate": {
 				"custom_model_data":5102
             },
-            "model": "item/lev2_crossbow"
+            "model": "item/crossbow/growing/lev2/lev2_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5102,
                 "pulling": 1
             },
-            "model": "item/lev2_crossbow_pulling_0"
+            "model": "item/crossbow/growing/lev2/lev2_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -777,7 +823,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/lev2_crossbow_pulling_1"
+            "model": "item/crossbow/growing/lev2/lev2_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -785,14 +831,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/lev2_crossbow_pulling_2"
+            "model": "item/crossbow/growing/lev2/lev2_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5102,
                 "charged": 1
             },
-            "model": "item/lev2_crossbow_arrow"
+            "model": "item/crossbow/growing/lev2/lev2_crossbow_arrow"
         },
         {
             "predicate": {
@@ -800,7 +846,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/lev2_crossbow_firework"
+            "model": "item/crossbow/growing/lev2/lev2_crossbow_firework"
         },
 		
 		
@@ -809,14 +855,14 @@
             "predicate": {
 				"custom_model_data":5103
             },
-            "model": "item/lev3_crossbow"
+            "model": "item/crossbow/growing/lev3/lev3_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5103,
                 "pulling": 1
             },
-            "model": "item/lev3_crossbow_pulling_0"
+            "model": "item/crossbow/growing/lev3/lev3_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -824,7 +870,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/lev3_crossbow_pulling_1"
+            "model": "item/crossbow/growing/lev3/lev3_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -832,14 +878,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/lev3_crossbow_pulling_2"
+            "model": "item/crossbow/growing/lev3/lev3_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5103,
                 "charged": 1
             },
-            "model": "item/lev3_crossbow_arrow"
+            "model": "item/crossbow/growing/lev3/lev3_crossbow_arrow"
         },
         {
             "predicate": {
@@ -847,7 +893,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/lev3_crossbow_firework"
+            "model": "item/crossbow/growing/lev3/lev3_crossbow_firework"
         },
 		
 		
@@ -856,14 +902,14 @@
             "predicate": {
 				"custom_model_data":5104
             },
-            "model": "item/lev4_crossbow"
+            "model": "item/crossbow/growing/lev4/lev4_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5104,
                 "pulling": 1
             },
-            "model": "item/lev4_crossbow_pulling_0"
+            "model": "item/crossbow/growing/lev4/lev4_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -871,7 +917,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/lev4_crossbow_pulling_1"
+            "model": "item/crossbow/growing/lev4/lev4_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -879,14 +925,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/lev4_crossbow_pulling_2"
+            "model": "item/crossbow/growing/lev4/lev4_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5104,
                 "charged": 1
             },
-            "model": "item/lev4_crossbow_arrow"
+            "model": "item/crossbow/growing/lev4/lev4_crossbow_arrow"
         },
         {
             "predicate": {
@@ -894,7 +940,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/lev4_crossbow_firework"
+            "model": "item/crossbow/growing/lev4/lev4_crossbow_firework"
         },
 		
 		
@@ -903,14 +949,14 @@
             "predicate": {
 				"custom_model_data":5105
             },
-            "model": "item/lev5_crossbow"
+            "model": "item/crossbow/growing/lev5/lev5_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5105,
                 "pulling": 1
             },
-            "model": "item/lev5_crossbow_pulling_0"
+            "model": "item/crossbow/growing/lev5/lev5_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -918,7 +964,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/lev5_crossbow_pulling_1"
+            "model": "item/crossbow/growing/lev5/lev5_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -926,14 +972,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/lev5_crossbow_pulling_2"
+            "model": "item/crossbow/growing/lev5/lev5_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5105,
                 "charged": 1
             },
-            "model": "item/lev5_crossbow_arrow"
+            "model": "item/crossbow/growing/lev5/lev5_crossbow_arrow"
         },
         {
             "predicate": {
@@ -941,7 +987,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/lev5_crossbow_firework"
+            "model": "item/crossbow/growing/lev5/lev5_crossbow_firework"
         },
 		
 		
@@ -950,14 +996,14 @@
             "predicate": {
 				"custom_model_data":5106
             },
-            "model": "item/lev6_crossbow"
+            "model": "item/crossbow/growing/lev6/lev6_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5106,
                 "pulling": 1
             },
-            "model": "item/lev6_crossbow_pulling_0"
+            "model": "item/crossbow/growing/lev6/lev6_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -965,7 +1011,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/lev6_crossbow_pulling_1"
+            "model": "item/crossbow/growing/lev6/lev6_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -973,14 +1019,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/lev6_crossbow_pulling_2"
+            "model": "item/crossbow/growing/lev6/lev6_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5106,
                 "charged": 1
             },
-            "model": "item/lev6_crossbow_arrow"
+            "model": "item/crossbow/growing/lev6/lev6_crossbow_arrow"
         },
         {
             "predicate": {
@@ -988,7 +1034,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/lev6_crossbow_firework"
+            "model": "item/crossbow/growing/lev6/lev6_crossbow_firework"
         },
 		
 		
@@ -997,14 +1043,14 @@
             "predicate": {
 				"custom_model_data":5107
             },
-            "model": "item/lev7_crossbow"
+            "model": "item/crossbow/growing/lev7/lev7_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5107,
                 "pulling": 1
             },
-            "model": "item/lev7_crossbow_pulling_0"
+            "model": "item/crossbow/growing/lev7/lev7_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -1012,7 +1058,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/lev7_crossbow_pulling_1"
+            "model": "item/crossbow/growing/lev7/lev7_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -1020,14 +1066,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/lev7_crossbow_pulling_2"
+            "model": "item/crossbow/growing/lev7/lev7_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5107,
                 "charged": 1
             },
-            "model": "item/lev7_crossbow_arrow"
+            "model": "item/crossbow/growing/lev7/lev7_crossbow_arrow"
         },
         {
             "predicate": {
@@ -1035,7 +1081,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/lev7_crossbow_firework"
+            "model": "item/crossbow/growing/lev7/lev7_crossbow_firework"
         },
 		
 		
@@ -1044,14 +1090,14 @@
             "predicate": {
 				"custom_model_data":5108
             },
-            "model": "item/lev8_crossbow"
+            "model": "item/crossbow/growing/lev8/lev8_crossbow"
         },
         {
             "predicate": {
 				"custom_model_data":5108,
                 "pulling": 1
             },
-            "model": "item/lev8_crossbow_pulling_0"
+            "model": "item/crossbow/growing/lev8/lev8_crossbow_pulling_0"
         },
         {
             "predicate": {
@@ -1059,7 +1105,7 @@
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "item/lev8_crossbow_pulling_1"
+            "model": "item/crossbow/growing/lev8/lev8_crossbow_pulling_1"
         },
         {
             "predicate": {
@@ -1067,14 +1113,14 @@
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "item/lev8_crossbow_pulling_2"
+            "model": "item/crossbow/growing/lev8/lev8_crossbow_pulling_2"
         },
         {
             "predicate": {
 				"custom_model_data":5108,
                 "charged": 1
             },
-            "model": "item/lev8_crossbow_arrow"
+            "model": "item/crossbow/growing/lev8/lev8_crossbow_arrow"
         },
         {
             "predicate": {
@@ -1082,7 +1128,7 @@
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/lev8_crossbow_firework"
+            "model": "item/crossbow/growing/lev8/lev8_crossbow_firework"
         }
     ]
 }

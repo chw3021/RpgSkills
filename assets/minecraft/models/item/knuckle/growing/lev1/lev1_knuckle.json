@@ -1,0 +1,6 @@
+{
+    "parent": "item/globe_banner_pattern",
+    "textures": {
+        "layer0": "item/knuckle/growing/lev1/lev1_knuckle"
+    }
+}

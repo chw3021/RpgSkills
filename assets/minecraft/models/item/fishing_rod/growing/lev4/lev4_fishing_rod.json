@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/fishing_rod/growing/lev4/lev4_fishing_rod"
+    }
+}
