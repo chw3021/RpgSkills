@@ -1,0 +1,110 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/netherite_spear"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 14005
+            },
+            "model": "item/spear/windy/windy_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14006
+            },
+            "model": "item/spear/frost/frost_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14007
+            },
+            "model": "item/spear/ocean/ocean_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14008
+            },
+            "model": "item/spear/dark/dark_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14009
+            },
+            "model": "item/spear/hyper/hyper_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14010
+            },
+            "model": "item/spear/burning/burning_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14011
+            },
+            "model": "item/spear/poison/poison_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14012
+            },
+            "model": "item/spear/natural/natural_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14014
+            },
+            "model": "item/spear/earth/earth_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14101
+            },
+            "model": "item/spear/growing/lev1/lev1_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14102
+            },
+            "model": "item/spear/growing/lev2/lev2_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14103
+            },
+            "model": "item/spear/growing/lev3/lev3_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14104
+            },
+            "model": "item/spear/growing/lev4/lev4_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14105
+            },
+            "model": "item/spear/growing/lev5/lev5_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14106
+            },
+            "model": "item/spear/growing/lev6/lev6_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14107
+            },
+            "model": "item/spear/growing/lev7/lev7_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14108
+            },
+            "model": "item/spear/growing/lev8/lev8_spear"
+        }
+    ]
+}
