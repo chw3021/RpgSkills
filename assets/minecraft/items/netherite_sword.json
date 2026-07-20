@@ -1,0 +1,131 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 3005,
+        "model": {
+          "type": "model",
+          "model": "item/sword/windy/windy_sword"
+        }
+      },
+      {
+        "threshold": 3006,
+        "model": {
+          "type": "model",
+          "model": "item/sword/frost/frost_sword"
+        }
+      },
+      {
+        "threshold": 3007,
+        "model": {
+          "type": "model",
+          "model": "item/sword/ocean/ocean_sword"
+        }
+      },
+      {
+        "threshold": 3008,
+        "model": {
+          "type": "model",
+          "model": "item/sword/dark/dark_sword"
+        }
+      },
+      {
+        "threshold": 3009,
+        "model": {
+          "type": "model",
+          "model": "item/sword/hyper/hyper_sword"
+        }
+      },
+      {
+        "threshold": 3010,
+        "model": {
+          "type": "model",
+          "model": "item/sword/burning/burning_sword"
+        }
+      },
+      {
+        "threshold": 3011,
+        "model": {
+          "type": "model",
+          "model": "item/sword/poison/poison_sword"
+        }
+      },
+      {
+        "threshold": 3012,
+        "model": {
+          "type": "model",
+          "model": "item/sword/natural/natural_sword"
+        }
+      },
+      {
+        "threshold": 3014,
+        "model": {
+          "type": "model",
+          "model": "item/sword/earth/earth_sword"
+        }
+      },
+      {
+        "threshold": 3101,
+        "model": {
+          "type": "model",
+          "model": "item/sword/growing/lev1/lev1_sword"
+        }
+      },
+      {
+        "threshold": 3102,
+        "model": {
+          "type": "model",
+          "model": "item/sword/growing/lev2/lev2_sword"
+        }
+      },
+      {
+        "threshold": 3103,
+        "model": {
+          "type": "model",
+          "model": "item/sword/growing/lev3/lev3_sword"
+        }
+      },
+      {
+        "threshold": 3104,
+        "model": {
+          "type": "model",
+          "model": "item/sword/growing/lev4/lev4_sword"
+        }
+      },
+      {
+        "threshold": 3105,
+        "model": {
+          "type": "model",
+          "model": "item/sword/growing/lev5/lev5_sword"
+        }
+      },
+      {
+        "threshold": 3106,
+        "model": {
+          "type": "model",
+          "model": "item/sword/growing/lev6/lev6_sword"
+        }
+      },
+      {
+        "threshold": 3107,
+        "model": {
+          "type": "model",
+          "model": "item/sword/growing/lev7/lev7_sword"
+        }
+      },
+      {
+        "threshold": 3108,
+        "model": {
+          "type": "model",
+          "model": "item/sword/growing/lev8/lev8_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_sword"
+    }
+  }
+}

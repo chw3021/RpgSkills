@@ -1,0 +1,131 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 7005,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/windy/windy_pickaxe"
+        }
+      },
+      {
+        "threshold": 7006,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/frost/frost_pickaxe"
+        }
+      },
+      {
+        "threshold": 7007,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/ocean/ocean_pickaxe"
+        }
+      },
+      {
+        "threshold": 7008,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/dark/dark_pickaxe"
+        }
+      },
+      {
+        "threshold": 7009,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/hyper/hyper_pickaxe"
+        }
+      },
+      {
+        "threshold": 7010,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/burning/burning_pickaxe"
+        }
+      },
+      {
+        "threshold": 7011,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/poison/poison_pickaxe"
+        }
+      },
+      {
+        "threshold": 7012,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/natural/natural_pickaxe"
+        }
+      },
+      {
+        "threshold": 7014,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/earth/earth_pickaxe"
+        }
+      },
+      {
+        "threshold": 7101,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/growing/lev1/lev1_pickaxe"
+        }
+      },
+      {
+        "threshold": 7102,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/growing/lev2/lev2_pickaxe"
+        }
+      },
+      {
+        "threshold": 7103,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/growing/lev3/lev3_pickaxe"
+        }
+      },
+      {
+        "threshold": 7104,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/growing/lev4/lev4_pickaxe"
+        }
+      },
+      {
+        "threshold": 7105,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/growing/lev5/lev5_pickaxe"
+        }
+      },
+      {
+        "threshold": 7106,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/growing/lev6/lev6_pickaxe"
+        }
+      },
+      {
+        "threshold": 7107,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/growing/lev7/lev7_pickaxe"
+        }
+      },
+      {
+        "threshold": 7108,
+        "model": {
+          "type": "model",
+          "model": "item/pickaxe/growing/lev8/lev8_pickaxe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_pickaxe"
+    }
+  }
+}

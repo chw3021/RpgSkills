@@ -1,0 +1,180 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 11000,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/wooden/wooden_dagger"
+        }
+      },
+      {
+        "threshold": 11001,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/stone/stone_dagger"
+        }
+      },
+      {
+        "threshold": 11002,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/gold/gold_dagger"
+        }
+      },
+      {
+        "threshold": 11003,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/iron/iron_dagger"
+        }
+      },
+      {
+        "threshold": 11004,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/diamond/diamond_dagger"
+        }
+      },
+      {
+        "threshold": 11005,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/windy/windy_dagger"
+        }
+      },
+      {
+        "threshold": 11006,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/frost/frost_dagger"
+        }
+      },
+      {
+        "threshold": 11007,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/ocean/ocean_dagger"
+        }
+      },
+      {
+        "threshold": 11008,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/dark/dark_dagger"
+        }
+      },
+      {
+        "threshold": 11009,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/hyper/hyper_dagger"
+        }
+      },
+      {
+        "threshold": 11010,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/burning/burning_dagger"
+        }
+      },
+      {
+        "threshold": 11011,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/poison/poison_dagger"
+        }
+      },
+      {
+        "threshold": 11012,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/natural/natural_dagger"
+        }
+      },
+      {
+        "threshold": 11014,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/earth/earth_dagger"
+        }
+      },
+      {
+        "threshold": 11015,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/copper/copper_dagger"
+        }
+      },
+      {
+        "threshold": 11060,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/netherite/netherite_dagger"
+        }
+      },
+      {
+        "threshold": 11101,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/growing/lev1/lev1_dagger"
+        }
+      },
+      {
+        "threshold": 11102,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/growing/lev2/lev2_dagger"
+        }
+      },
+      {
+        "threshold": 11103,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/growing/lev3/lev3_dagger"
+        }
+      },
+      {
+        "threshold": 11104,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/growing/lev4/lev4_dagger"
+        }
+      },
+      {
+        "threshold": 11105,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/growing/lev5/lev5_dagger"
+        }
+      },
+      {
+        "threshold": 11106,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/growing/lev6/lev6_dagger"
+        }
+      },
+      {
+        "threshold": 11107,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/growing/lev7/lev7_dagger"
+        }
+      },
+      {
+        "threshold": 11108,
+        "model": {
+          "type": "model",
+          "model": "item/dagger/growing/lev8/lev8_dagger"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/shears"
+    }
+  }
+}

@@ -1,25 +1,6 @@
 {
-	"parent": "minecraft:item/handheld",
-	"textures": {
-		"layer0": "minecraft:item/mace"
-	},
-	"overrides": [
-		{"predicate": {"custom_model_data": 13005}, "model": "item/mace/windy/windy_mace"},
-		{"predicate": {"custom_model_data": 13006}, "model": "item/mace/frost/frost_mace"},
-		{"predicate": {"custom_model_data": 13007}, "model": "item/mace/ocean/ocean_mace"},
-		{"predicate": {"custom_model_data": 13008}, "model": "item/mace/dark/dark_mace"},
-		{"predicate": {"custom_model_data": 13009}, "model": "item/mace/hyper/hyper_mace"},
-		{"predicate": {"custom_model_data": 13010}, "model": "item/mace/burning/burning_mace"},
-		{"predicate": {"custom_model_data": 13011}, "model": "item/mace/poison/poison_mace"},
-		{"predicate": {"custom_model_data": 13012}, "model": "item/mace/natural/natural_mace"},
-		{"predicate": {"custom_model_data": 13014}, "model": "item/mace/earth/earth_mace"},
-		{"predicate": {"custom_model_data": 13101}, "model": "item/mace/growing/lev1/lev1_mace"},
-		{"predicate": {"custom_model_data": 13102}, "model": "item/mace/growing/lev2/lev2_mace"},
-		{"predicate": {"custom_model_data": 13103}, "model": "item/mace/growing/lev3/lev3_mace"},
-		{"predicate": {"custom_model_data": 13104}, "model": "item/mace/growing/lev4/lev4_mace"},
-		{"predicate": {"custom_model_data": 13105}, "model": "item/mace/growing/lev5/lev5_mace"},
-		{"predicate": {"custom_model_data": 13106}, "model": "item/mace/growing/lev6/lev6_mace"},
-		{"predicate": {"custom_model_data": 13107}, "model": "item/mace/growing/lev7/lev7_mace"},
-		{"predicate": {"custom_model_data": 13108}, "model": "item/mace/growing/lev8/lev8_mace"}
-	]
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/mace"
+    }
 }

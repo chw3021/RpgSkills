@@ -1,0 +1,131 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 8005,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/windy/windy_hoe"
+        }
+      },
+      {
+        "threshold": 8006,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/frost/frost_hoe"
+        }
+      },
+      {
+        "threshold": 8007,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/ocean/ocean_hoe"
+        }
+      },
+      {
+        "threshold": 8008,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/dark/dark_hoe"
+        }
+      },
+      {
+        "threshold": 8009,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/hyper/hyper_hoe"
+        }
+      },
+      {
+        "threshold": 8010,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/burning/burning_hoe"
+        }
+      },
+      {
+        "threshold": 8011,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/poison/poison_hoe"
+        }
+      },
+      {
+        "threshold": 8012,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/natural/natural_hoe"
+        }
+      },
+      {
+        "threshold": 8014,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/earth/earth_hoe"
+        }
+      },
+      {
+        "threshold": 8101,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/growing/lev1/lev1_hoe"
+        }
+      },
+      {
+        "threshold": 8102,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/growing/lev2/lev2_hoe"
+        }
+      },
+      {
+        "threshold": 8103,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/growing/lev3/lev3_hoe"
+        }
+      },
+      {
+        "threshold": 8104,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/growing/lev4/lev4_hoe"
+        }
+      },
+      {
+        "threshold": 8105,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/growing/lev5/lev5_hoe"
+        }
+      },
+      {
+        "threshold": 8106,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/growing/lev6/lev6_hoe"
+        }
+      },
+      {
+        "threshold": 8107,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/growing/lev7/lev7_hoe"
+        }
+      },
+      {
+        "threshold": 8108,
+        "model": {
+          "type": "model",
+          "model": "item/hoe/growing/lev8/lev8_hoe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_hoe"
+    }
+  }
+}

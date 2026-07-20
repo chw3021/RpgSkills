@@ -1,0 +1,180 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 9000,
+        "model": {
+          "type": "model",
+          "model": "item/wand/wooden/wooden_wand"
+        }
+      },
+      {
+        "threshold": 9001,
+        "model": {
+          "type": "model",
+          "model": "item/wand/stone/stone_wand"
+        }
+      },
+      {
+        "threshold": 9002,
+        "model": {
+          "type": "model",
+          "model": "item/wand/gold/gold_wand"
+        }
+      },
+      {
+        "threshold": 9003,
+        "model": {
+          "type": "model",
+          "model": "item/wand/iron/iron_wand"
+        }
+      },
+      {
+        "threshold": 9004,
+        "model": {
+          "type": "model",
+          "model": "item/wand/diamond/diamond_wand"
+        }
+      },
+      {
+        "threshold": 9005,
+        "model": {
+          "type": "model",
+          "model": "item/wand/windy/windy_wand"
+        }
+      },
+      {
+        "threshold": 9006,
+        "model": {
+          "type": "model",
+          "model": "item/wand/frost/frost_wand"
+        }
+      },
+      {
+        "threshold": 9007,
+        "model": {
+          "type": "model",
+          "model": "item/wand/ocean/ocean_wand"
+        }
+      },
+      {
+        "threshold": 9008,
+        "model": {
+          "type": "model",
+          "model": "item/wand/dark/dark_wand"
+        }
+      },
+      {
+        "threshold": 9009,
+        "model": {
+          "type": "model",
+          "model": "item/wand/hyper/hyper_wand"
+        }
+      },
+      {
+        "threshold": 9010,
+        "model": {
+          "type": "model",
+          "model": "item/wand/burning/burning_wand"
+        }
+      },
+      {
+        "threshold": 9011,
+        "model": {
+          "type": "model",
+          "model": "item/wand/poison/poison_wand"
+        }
+      },
+      {
+        "threshold": 9012,
+        "model": {
+          "type": "model",
+          "model": "item/wand/natural/natural_wand"
+        }
+      },
+      {
+        "threshold": 9014,
+        "model": {
+          "type": "model",
+          "model": "item/wand/earth/earth_wand"
+        }
+      },
+      {
+        "threshold": 9015,
+        "model": {
+          "type": "model",
+          "model": "item/wand/copper/copper_wand"
+        }
+      },
+      {
+        "threshold": 9060,
+        "model": {
+          "type": "model",
+          "model": "item/wand/netherite/netherite_wand"
+        }
+      },
+      {
+        "threshold": 9101,
+        "model": {
+          "type": "model",
+          "model": "item/wand/growing/lev1/lev1_wand"
+        }
+      },
+      {
+        "threshold": 9102,
+        "model": {
+          "type": "model",
+          "model": "item/wand/growing/lev2/lev2_wand"
+        }
+      },
+      {
+        "threshold": 9103,
+        "model": {
+          "type": "model",
+          "model": "item/wand/growing/lev3/lev3_wand"
+        }
+      },
+      {
+        "threshold": 9104,
+        "model": {
+          "type": "model",
+          "model": "item/wand/growing/lev4/lev4_wand"
+        }
+      },
+      {
+        "threshold": 9105,
+        "model": {
+          "type": "model",
+          "model": "item/wand/growing/lev5/lev5_wand"
+        }
+      },
+      {
+        "threshold": 9106,
+        "model": {
+          "type": "model",
+          "model": "item/wand/growing/lev6/lev6_wand"
+        }
+      },
+      {
+        "threshold": 9107,
+        "model": {
+          "type": "model",
+          "model": "item/wand/growing/lev7/lev7_wand"
+        }
+      },
+      {
+        "threshold": 9108,
+        "model": {
+          "type": "model",
+          "model": "item/wand/growing/lev8/lev8_wand"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/blaze_rod"
+    }
+  }
+}

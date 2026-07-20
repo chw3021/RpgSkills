@@ -1,165 +1,43 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "minecraft:item/globe_banner_pattern"
-	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 1000
-			},
-			"model": "item/knuckle/wooden/wooden_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1001
-			},
-			"model": "item/knuckle/stone/stone_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1002
-			},
-			"model": "item/knuckle/gold/gold_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1003
-			},
-			"model": "item/knuckle/iron/iron_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1004
-			},
-			"model": "item/knuckle/diamond/diamond_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1015
-			},
-			"model": "item/knuckle/copper/copper_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1005
-			},
-			"model": "item/knuckle/windy/windy_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1006
-			},
-			"model": "item/knuckle/frost/frost_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1007
-			},
-			"model": "item/knuckle/ocean/ocean_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1008
-			},
-			"model": "item/knuckle/dark/dark_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1009
-			},
-			"model": "item/knuckle/hyper/hyper_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1010
-			},
-			"model": "item/knuckle/burning/burning_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1011
-			},
-			"model": "item/knuckle/poison/poison_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1012
-			},
-			"model": "item/knuckle/natural/natural_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1014
-			},
-			"model": "item/knuckle/earth/earth_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1060
-			},
-			"model": "item/knuckle/netherite/netherite_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1101
-			},
-			"model": "item/knuckle/growing/lev1/lev1_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1102
-			},
-			"model": "item/knuckle/growing/lev2/lev2_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1103
-			},
-			"model": "item/knuckle/growing/lev3/lev3_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1104
-			},
-			"model": "item/knuckle/growing/lev4/lev4_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1105
-			},
-			"model": "item/knuckle/growing/lev5/lev5_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1106
-			},
-			"model": "item/knuckle/growing/lev6/lev6_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1107
-			},
-			"model": "item/knuckle/growing/lev7/lev7_knuckle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1108
-			},
-			"model": "item/knuckle/growing/lev8/lev8_knuckle"
-		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [-91.5, 0, 0],
-			"translation": [0, -1.75, 0],
-			"scale": [0.70313, 0.70313, 0.70313]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [91.5, 0, -180],
-			"translation": [0, -1.75, 0],
-			"scale": [0.70313, 0.70313, 0.70313]
-		}
-	}
+    "credit": "Made with Blockbench",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/globe_banner_pattern"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                -91.5,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -1.75,
+                0
+            ],
+            "scale": [
+                0.70313,
+                0.70313,
+                0.70313
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                91.5,
+                0,
+                -180
+            ],
+            "translation": [
+                0,
+                -1.75,
+                0
+            ],
+            "scale": [
+                0.70313,
+                0.70313,
+                0.70313
+            ]
+        }
+    }
 }

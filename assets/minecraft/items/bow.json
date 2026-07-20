@@ -1,0 +1,869 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 2001,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/stone/stone_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/stone/stone_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/stone/stone_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/stone/stone_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2002,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/gold/gold_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/gold/gold_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/gold/gold_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/gold/gold_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2003,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/iron/iron_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/iron/iron_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/iron/iron_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/iron/iron_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2004,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/diamond/diamond_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/diamond/diamond_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/diamond/diamond_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/diamond/diamond_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2005,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/windy/windy_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/windy/windy_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/windy/windy_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/windy/windy_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2006,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/frost/frost_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/frost/frost_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/frost/frost_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/frost/frost_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2007,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/ocean/ocean_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/ocean/ocean_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/ocean/ocean_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/ocean/ocean_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2008,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/dark/dark_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/dark/dark_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/dark/dark_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/dark/dark_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2009,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/hyper/hyper_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/hyper/hyper_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/hyper/hyper_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/hyper/hyper_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2010,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/burning/burning_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/burning/burning_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/burning/burning_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/burning/burning_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2011,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/poison/poison_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/poison/poison_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/poison/poison_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/poison/poison_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2012,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/natural/natural_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/natural/natural_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/natural/natural_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/natural/natural_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2014,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/earth/earth_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/earth/earth_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/earth/earth_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/earth/earth_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2015,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/copper/copper_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/copper/copper_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/copper/copper_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/copper/copper_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2060,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/netherite/netherite_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/netherite/netherite_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/netherite/netherite_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/netherite/netherite_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2101,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/growing/lev1/lev1_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev1/lev1_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev1/lev1_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/growing/lev1/lev1_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2102,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/growing/lev2/lev2_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev2/lev2_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev2/lev2_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/growing/lev2/lev2_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2103,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/growing/lev3/lev3_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev3/lev3_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev3/lev3_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/growing/lev3/lev3_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2104,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/growing/lev4/lev4_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev4/lev4_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev4/lev4_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/growing/lev4/lev4_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2105,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/growing/lev5/lev5_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev5/lev5_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev5/lev5_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/growing/lev5/lev5_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2106,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/growing/lev6/lev6_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev6/lev6_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev6/lev6_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/growing/lev6/lev6_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2107,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/growing/lev7/lev7_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev7/lev7_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev7/lev7_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/growing/lev7/lev7_bow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2108,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/bow/growing/lev8/lev8_bow"
+          },
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev8/lev8_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bow/growing/lev8/lev8_bow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bow/growing/lev8/lev8_bow_pulling_0"
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "condition",
+      "property": "using_item",
+      "on_false": {
+        "type": "model",
+        "model": "item/bow"
+      },
+      "on_true": {
+        "type": "range_dispatch",
+        "property": "use_duration",
+        "scale": 0.05,
+        "entries": [
+          {
+            "threshold": 0.65,
+            "model": {
+              "type": "model",
+              "model": "item/bow_pulling_1"
+            }
+          },
+          {
+            "threshold": 0.9,
+            "model": {
+              "type": "model",
+              "model": "item/bow_pulling_2"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "model",
+          "model": "item/bow_pulling_0"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 1000,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/wooden/wooden_knuckle"
+        }
+      },
+      {
+        "threshold": 1001,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/stone/stone_knuckle"
+        }
+      },
+      {
+        "threshold": 1002,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/gold/gold_knuckle"
+        }
+      },
+      {
+        "threshold": 1003,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/iron/iron_knuckle"
+        }
+      },
+      {
+        "threshold": 1004,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/diamond/diamond_knuckle"
+        }
+      },
+      {
+        "threshold": 1005,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/windy/windy_knuckle"
+        }
+      },
+      {
+        "threshold": 1006,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/frost/frost_knuckle"
+        }
+      },
+      {
+        "threshold": 1007,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/ocean/ocean_knuckle"
+        }
+      },
+      {
+        "threshold": 1008,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/dark/dark_knuckle"
+        }
+      },
+      {
+        "threshold": 1009,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/hyper/hyper_knuckle"
+        }
+      },
+      {
+        "threshold": 1010,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/burning/burning_knuckle"
+        }
+      },
+      {
+        "threshold": 1011,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/poison/poison_knuckle"
+        }
+      },
+      {
+        "threshold": 1012,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/natural/natural_knuckle"
+        }
+      },
+      {
+        "threshold": 1014,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/earth/earth_knuckle"
+        }
+      },
+      {
+        "threshold": 1015,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/copper/copper_knuckle"
+        }
+      },
+      {
+        "threshold": 1060,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/netherite/netherite_knuckle"
+        }
+      },
+      {
+        "threshold": 1101,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/growing/lev1/lev1_knuckle"
+        }
+      },
+      {
+        "threshold": 1102,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/growing/lev2/lev2_knuckle"
+        }
+      },
+      {
+        "threshold": 1103,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/growing/lev3/lev3_knuckle"
+        }
+      },
+      {
+        "threshold": 1104,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/growing/lev4/lev4_knuckle"
+        }
+      },
+      {
+        "threshold": 1105,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/growing/lev5/lev5_knuckle"
+        }
+      },
+      {
+        "threshold": 1106,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/growing/lev6/lev6_knuckle"
+        }
+      },
+      {
+        "threshold": 1107,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/growing/lev7/lev7_knuckle"
+        }
+      },
+      {
+        "threshold": 1108,
+        "model": {
+          "type": "model",
+          "model": "item/knuckle/growing/lev8/lev8_knuckle"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/globe_banner_pattern"
+    }
+  }
+}

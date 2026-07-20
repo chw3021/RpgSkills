@@ -1,0 +1,131 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 13005,
+        "model": {
+          "type": "model",
+          "model": "item/mace/windy/windy_mace"
+        }
+      },
+      {
+        "threshold": 13006,
+        "model": {
+          "type": "model",
+          "model": "item/mace/frost/frost_mace"
+        }
+      },
+      {
+        "threshold": 13007,
+        "model": {
+          "type": "model",
+          "model": "item/mace/ocean/ocean_mace"
+        }
+      },
+      {
+        "threshold": 13008,
+        "model": {
+          "type": "model",
+          "model": "item/mace/dark/dark_mace"
+        }
+      },
+      {
+        "threshold": 13009,
+        "model": {
+          "type": "model",
+          "model": "item/mace/hyper/hyper_mace"
+        }
+      },
+      {
+        "threshold": 13010,
+        "model": {
+          "type": "model",
+          "model": "item/mace/burning/burning_mace"
+        }
+      },
+      {
+        "threshold": 13011,
+        "model": {
+          "type": "model",
+          "model": "item/mace/poison/poison_mace"
+        }
+      },
+      {
+        "threshold": 13012,
+        "model": {
+          "type": "model",
+          "model": "item/mace/natural/natural_mace"
+        }
+      },
+      {
+        "threshold": 13014,
+        "model": {
+          "type": "model",
+          "model": "item/mace/earth/earth_mace"
+        }
+      },
+      {
+        "threshold": 13101,
+        "model": {
+          "type": "model",
+          "model": "item/mace/growing/lev1/lev1_mace"
+        }
+      },
+      {
+        "threshold": 13102,
+        "model": {
+          "type": "model",
+          "model": "item/mace/growing/lev2/lev2_mace"
+        }
+      },
+      {
+        "threshold": 13103,
+        "model": {
+          "type": "model",
+          "model": "item/mace/growing/lev3/lev3_mace"
+        }
+      },
+      {
+        "threshold": 13104,
+        "model": {
+          "type": "model",
+          "model": "item/mace/growing/lev4/lev4_mace"
+        }
+      },
+      {
+        "threshold": 13105,
+        "model": {
+          "type": "model",
+          "model": "item/mace/growing/lev5/lev5_mace"
+        }
+      },
+      {
+        "threshold": 13106,
+        "model": {
+          "type": "model",
+          "model": "item/mace/growing/lev6/lev6_mace"
+        }
+      },
+      {
+        "threshold": 13107,
+        "model": {
+          "type": "model",
+          "model": "item/mace/growing/lev7/lev7_mace"
+        }
+      },
+      {
+        "threshold": 13108,
+        "model": {
+          "type": "model",
+          "model": "item/mace/growing/lev8/lev8_mace"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/mace"
+    }
+  }
+}

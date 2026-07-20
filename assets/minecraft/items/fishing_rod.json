@@ -1,0 +1,350 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 12001,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/stone/stone_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/stone/stone_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12002,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/gold/gold_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/gold/gold_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12003,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/iron/iron_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/iron/iron_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12004,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/diamond/diamond_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/diamond/diamond_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12005,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/windy/windy_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/windy/windy_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12006,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/frost/frost_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/frost/frost_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12007,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/ocean/ocean_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/ocean/ocean_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12008,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/dark/dark_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/dark/dark_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12009,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/hyper/hyper_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/hyper/hyper_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12010,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/burning/burning_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/burning/burning_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12011,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/poison/poison_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/poison/poison_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12012,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/natural/natural_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/natural/natural_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12014,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/earth/earth_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/earth/earth_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12015,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/copper/copper_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/copper/copper_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12101,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev1/lev1_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev1/lev1_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12102,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev2/lev2_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev2/lev2_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12103,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev3/lev3_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev3/lev3_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12104,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev4/lev4_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev4/lev4_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12105,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev5/lev5_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev5/lev5_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12106,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev6/lev6_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev6/lev6_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12107,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev7/lev7_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev7/lev7_fishing_rod_cast"
+          }
+        }
+      },
+      {
+        "threshold": 12108,
+        "model": {
+          "type": "condition",
+          "property": "fishing_rod/cast",
+          "on_false": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev8/lev8_fishing_rod"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/fishing_rod/growing/lev8/lev8_fishing_rod_cast"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "condition",
+      "property": "fishing_rod/cast",
+      "on_false": {
+        "type": "model",
+        "model": "item/fishing_rod"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "item/fishing_rod_cast"
+      }
+    }
+  }
+}

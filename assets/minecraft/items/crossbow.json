@@ -1,0 +1,1325 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 5001,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/stone/stone_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/stone/stone_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/stone/stone_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/stone/stone_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/stone/stone_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/stone/stone_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5002,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/gold/gold_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/gold/gold_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/gold/gold_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/gold/gold_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/gold/gold_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/gold/gold_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5003,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/iron/iron_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/iron/iron_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/iron/iron_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/iron/iron_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/iron/iron_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/iron/iron_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5004,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/diamond/diamond_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/diamond/diamond_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/diamond/diamond_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/diamond/diamond_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/diamond/diamond_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/diamond/diamond_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5005,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/windy/windy_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/windy/windy_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/windy/windy_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/windy/windy_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/windy/windy_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/windy/windy_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5006,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/frost/frost_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/frost/frost_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/frost/frost_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/frost/frost_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/frost/frost_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/frost/frost_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5007,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/ocean/ocean_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/ocean/ocean_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/ocean/ocean_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/ocean/ocean_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/ocean/ocean_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/ocean/ocean_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5008,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/dark/dark_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/dark/dark_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/dark/dark_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/dark/dark_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/dark/dark_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/dark/dark_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5009,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/hyper/hyper_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/hyper/hyper_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/hyper/hyper_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/hyper/hyper_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/hyper/hyper_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/hyper/hyper_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5010,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/burning/burning_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/burning/burning_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/burning/burning_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/burning/burning_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/burning/burning_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/burning/burning_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5011,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/poison/poison_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/poison/poison_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/poison/poison_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/poison/poison_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/poison/poison_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/poison/poison_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5012,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/natural/natural_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/natural/natural_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/natural/natural_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/natural/natural_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/natural/natural_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/natural/natural_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5014,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/earth/earth_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/earth/earth_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/earth/earth_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/earth/earth_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/earth/earth_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/earth/earth_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5015,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/copper/copper_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/copper/copper_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/copper/copper_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/copper/copper_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/copper/copper_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/copper/copper_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5060,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/netherite/netherite_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/netherite/netherite_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/netherite/netherite_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/netherite/netherite_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/netherite/netherite_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/netherite/netherite_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5101,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev1/lev1_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev1/lev1_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/growing/lev1/lev1_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev1/lev1_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev1/lev1_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev1/lev1_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5102,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev2/lev2_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev2/lev2_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/growing/lev2/lev2_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev2/lev2_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev2/lev2_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev2/lev2_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5103,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev3/lev3_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev3/lev3_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/growing/lev3/lev3_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev3/lev3_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev3/lev3_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev3/lev3_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5104,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev4/lev4_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev4/lev4_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/growing/lev4/lev4_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev4/lev4_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev4/lev4_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev4/lev4_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5105,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev5/lev5_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev5/lev5_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/growing/lev5/lev5_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev5/lev5_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev5/lev5_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev5/lev5_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5106,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev6/lev6_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev6/lev6_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/growing/lev6/lev6_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev6/lev6_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev6/lev6_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev6/lev6_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5107,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev7/lev7_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev7/lev7_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/growing/lev7/lev7_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev7/lev7_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev7/lev7_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev7/lev7_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5108,
+        "model": {
+          "type": "select",
+          "property": "charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev8/lev8_crossbow_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev8/lev8_crossbow_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "item/crossbow/growing/lev8/lev8_crossbow"
+            },
+            "on_true": {
+              "type": "range_dispatch",
+              "property": "crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev8/lev8_crossbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "model",
+                    "model": "item/crossbow/growing/lev8/lev8_crossbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "item/crossbow/growing/lev8/lev8_crossbow_pulling_0"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "select",
+      "property": "charge_type",
+      "cases": [
+        {
+          "when": "arrow",
+          "model": {
+            "type": "model",
+            "model": "item/crossbow_arrow"
+          }
+        },
+        {
+          "when": "rocket",
+          "model": {
+            "type": "model",
+            "model": "item/crossbow_firework"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "condition",
+        "property": "using_item",
+        "on_false": {
+          "type": "model",
+          "model": "item/crossbow"
+        },
+        "on_true": {
+          "type": "range_dispatch",
+          "property": "crossbow/pull",
+          "entries": [
+            {
+              "threshold": 0.58,
+              "model": {
+                "type": "model",
+                "model": "item/crossbow_pulling_1"
+              }
+            },
+            {
+              "threshold": 1.0,
+              "model": {
+                "type": "model",
+                "model": "item/crossbow_pulling_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "item/crossbow_pulling_0"
+          }
+        }
+      }
+    }
+  }
+}

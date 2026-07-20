@@ -1,0 +1,138 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 10005,
+        "model": {
+          "type": "model",
+          "model": "item/trident/windy/windy_trident"
+        }
+      },
+      {
+        "threshold": 10006,
+        "model": {
+          "type": "model",
+          "model": "item/trident/frost/frost_trident"
+        }
+      },
+      {
+        "threshold": 10007,
+        "model": {
+          "type": "model",
+          "model": "item/trident/ocean/ocean_trident"
+        }
+      },
+      {
+        "threshold": 10008,
+        "model": {
+          "type": "model",
+          "model": "item/trident/dark/dark_trident"
+        }
+      },
+      {
+        "threshold": 10009,
+        "model": {
+          "type": "model",
+          "model": "item/trident/hyper/hyper_trident"
+        }
+      },
+      {
+        "threshold": 10010,
+        "model": {
+          "type": "model",
+          "model": "item/trident/burning/burning_trident"
+        }
+      },
+      {
+        "threshold": 10011,
+        "model": {
+          "type": "model",
+          "model": "item/trident/poison/poison_trident"
+        }
+      },
+      {
+        "threshold": 10012,
+        "model": {
+          "type": "model",
+          "model": "item/trident/natural/natural_trident"
+        }
+      },
+      {
+        "threshold": 10014,
+        "model": {
+          "type": "model",
+          "model": "item/trident/earth/earth_trident"
+        }
+      },
+      {
+        "threshold": 10015,
+        "model": {
+          "type": "model",
+          "model": "item/trident/copper/copper_trident"
+        }
+      },
+      {
+        "threshold": 10101,
+        "model": {
+          "type": "model",
+          "model": "item/trident/growing/lev1/lev1_trident"
+        }
+      },
+      {
+        "threshold": 10102,
+        "model": {
+          "type": "model",
+          "model": "item/trident/growing/lev2/lev2_trident"
+        }
+      },
+      {
+        "threshold": 10103,
+        "model": {
+          "type": "model",
+          "model": "item/trident/growing/lev3/lev3_trident"
+        }
+      },
+      {
+        "threshold": 10104,
+        "model": {
+          "type": "model",
+          "model": "item/trident/growing/lev4/lev4_trident"
+        }
+      },
+      {
+        "threshold": 10105,
+        "model": {
+          "type": "model",
+          "model": "item/trident/growing/lev5/lev5_trident"
+        }
+      },
+      {
+        "threshold": 10106,
+        "model": {
+          "type": "model",
+          "model": "item/trident/growing/lev6/lev6_trident"
+        }
+      },
+      {
+        "threshold": 10107,
+        "model": {
+          "type": "model",
+          "model": "item/trident/growing/lev7/lev7_trident"
+        }
+      },
+      {
+        "threshold": 10108,
+        "model": {
+          "type": "model",
+          "model": "item/trident/growing/lev8/lev8_trident"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/trident"
+    }
+  }
+}

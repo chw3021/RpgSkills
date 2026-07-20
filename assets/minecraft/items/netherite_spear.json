@@ -1,0 +1,131 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 14005,
+        "model": {
+          "type": "model",
+          "model": "item/spear/windy/windy_spear"
+        }
+      },
+      {
+        "threshold": 14006,
+        "model": {
+          "type": "model",
+          "model": "item/spear/frost/frost_spear"
+        }
+      },
+      {
+        "threshold": 14007,
+        "model": {
+          "type": "model",
+          "model": "item/spear/ocean/ocean_spear"
+        }
+      },
+      {
+        "threshold": 14008,
+        "model": {
+          "type": "model",
+          "model": "item/spear/dark/dark_spear"
+        }
+      },
+      {
+        "threshold": 14009,
+        "model": {
+          "type": "model",
+          "model": "item/spear/hyper/hyper_spear"
+        }
+      },
+      {
+        "threshold": 14010,
+        "model": {
+          "type": "model",
+          "model": "item/spear/burning/burning_spear"
+        }
+      },
+      {
+        "threshold": 14011,
+        "model": {
+          "type": "model",
+          "model": "item/spear/poison/poison_spear"
+        }
+      },
+      {
+        "threshold": 14012,
+        "model": {
+          "type": "model",
+          "model": "item/spear/natural/natural_spear"
+        }
+      },
+      {
+        "threshold": 14014,
+        "model": {
+          "type": "model",
+          "model": "item/spear/earth/earth_spear"
+        }
+      },
+      {
+        "threshold": 14101,
+        "model": {
+          "type": "model",
+          "model": "item/spear/growing/lev1/lev1_spear"
+        }
+      },
+      {
+        "threshold": 14102,
+        "model": {
+          "type": "model",
+          "model": "item/spear/growing/lev2/lev2_spear"
+        }
+      },
+      {
+        "threshold": 14103,
+        "model": {
+          "type": "model",
+          "model": "item/spear/growing/lev3/lev3_spear"
+        }
+      },
+      {
+        "threshold": 14104,
+        "model": {
+          "type": "model",
+          "model": "item/spear/growing/lev4/lev4_spear"
+        }
+      },
+      {
+        "threshold": 14105,
+        "model": {
+          "type": "model",
+          "model": "item/spear/growing/lev5/lev5_spear"
+        }
+      },
+      {
+        "threshold": 14106,
+        "model": {
+          "type": "model",
+          "model": "item/spear/growing/lev6/lev6_spear"
+        }
+      },
+      {
+        "threshold": 14107,
+        "model": {
+          "type": "model",
+          "model": "item/spear/growing/lev7/lev7_spear"
+        }
+      },
+      {
+        "threshold": 14108,
+        "model": {
+          "type": "model",
+          "model": "item/spear/growing/lev8/lev8_spear"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_spear"
+    }
+  }
+}
