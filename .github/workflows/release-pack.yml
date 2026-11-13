@@ -25,12 +25,28 @@ jobs:
           [ -f pack.png ] && files="$files pack.png"
           zip -qr RPGskills-ResourcePack.zip $files
 
+      # Same assets, but pack.mcmeta pinned to one Minecraft version's resource pack format.
+      - name: Build per-version ZIPs
+        run: |
+          for entry in "26.3:[97,1]" "26.2:[88,0]" "26.1.2:[84,0]"; do
+            version="${entry%%:*}"
+            format="${entry#*:}"
+            out="RPGskills-ResourcePack-${version}.zip"
+            cp RPGskills-ResourcePack.zip "$out"
+            mkdir -p "meta-${version}"
+            jq --argjson f "$format" --arg d "RPGskills Resource Pack (MC ${version})" \
+              '.pack.min_format = $f | .pack.max_format = $f | .pack.description = $d' \
+              pack.mcmeta > "meta-${version}/pack.mcmeta"
+            (cd "meta-${version}" && zip -q "../$out" pack.mcmeta)
+          done
+
       - name: Publish to the rolling "latest" release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          assets="RPGskills-ResourcePack.zip RPGskills-ResourcePack-26.3.zip RPGskills-ResourcePack-26.2.zip RPGskills-ResourcePack-26.1.2.zip"
           if gh release view latest >/dev/null 2>&1; then
-            gh release upload latest RPGskills-ResourcePack.zip --clobber
+            gh release upload latest $assets --clobber
           else
-            gh release create latest RPGskills-ResourcePack.zip --target "$GITHUB_SHA" --title "RPGskills Resource Pack" --notes "Latest resource pack build from master."
+            gh release create latest $assets --target "$GITHUB_SHA" --title "RPGskills Resource Pack" --notes "Latest resource pack build from master."
           fi
