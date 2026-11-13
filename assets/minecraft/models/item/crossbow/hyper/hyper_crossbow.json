@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/crossbow/hyper/hyper_crossbow/l0_hyper_crossbow1",
-		"7": "item/crossbow/hyper/hyper_crossbow/l1_hyper_crossbow1",
-		"13": "item/crossbow/hyper/hyper_crossbow/l2_hyper_crossbow1",
-		"19": "item/crossbow/hyper/hyper_crossbow/l3_hyper_crossbow1",
-		"particle": "item/crossbow/hyper/hyper_crossbow/l0_hyper_crossbow1"
+		"1": "item/hyper_crossbow/l0_hyper_crossbow1",
+		"7": "item/hyper_crossbow/l1_hyper_crossbow1",
+		"13": "item/hyper_crossbow/l2_hyper_crossbow1",
+		"19": "item/hyper_crossbow/l3_hyper_crossbow1",
+		"particle": "item/hyper_crossbow/l0_hyper_crossbow1"
 	},
 	"elements": [
 		{
