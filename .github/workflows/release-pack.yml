@@ -1,0 +1,36 @@
+name: Release resource pack
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'assets/**'
+      - 'pack.mcmeta'
+      - 'pack.png'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # pack.mcmeta must sit at the ZIP root for Minecraft to recognize the pack.
+      - name: Build ZIP
+        run: |
+          files="pack.mcmeta assets"
+          [ -f pack.png ] && files="$files pack.png"
+          zip -qr RPGskills-ResourcePack.zip $files
+
+      - name: Publish to the rolling "latest" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view latest >/dev/null 2>&1; then
+            gh release upload latest RPGskills-ResourcePack.zip --clobber
+          else
+            gh release create latest RPGskills-ResourcePack.zip --target "$GITHUB_SHA" --title "RPGskills Resource Pack" --notes "Latest resource pack build from master."
+          fi
